@@ -3,9 +3,52 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background: #e5e5e5;
-}
 main {
   margin: 0 auto;
+  background: #e5e5e5;
+}
+.tears {
+  width: 876px;
+  height: 187px;
+  position: absolute;
+  margin-left: 324px;
+  margin-top: 47px;
+  background: #181818;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+.tears p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.19em;
+  margin: 45px 759px 124px 68px;
+
+  color: #767676;
+}
+.tears h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 63px 463px 60px 68px;
+
+  color: #fefefe;
+}
+hr {
+  width: 806px;
+  height: 3px;
+  margin-left: 394px;
+  margin-top: 185px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.yellow {
+  justify-content: space-around;
+  width: 812px;
+  height: 73px;
+  background: #fbc02d;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
 }
