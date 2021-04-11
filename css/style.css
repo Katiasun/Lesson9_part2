@@ -4,51 +4,118 @@
   box-sizing: border-box;
 }
 main {
-  margin: 0 auto;
-  background: #e5e5e5;
+  background: #a7a4a4;
 }
-.tears {
-  width: 876px;
-  height: 187px;
+.content {
+  margin: 0 auto;
+  width: 1060px;
+  height: 875px;
+}
+.vl {
+  width: 2px;
+  height: 875px;
+  border-left: 5px solid #e8eced;
   position: absolute;
-  margin-left: 324px;
-  margin-top: 47px;
+  top: 0;
+  left: 925px;
+}
+.white {
+  margin: 0 auto;
+  width: 1060px;
+  height: 875px;
+  background: #fff;
+}
+.white h6 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+
+  color: #b4b4b4;
+  padding-top: 360px;
+  padding-left: 124px;
+}
+.white h1 {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 600;
+  font-size: 78px;
+  line-height: 100px;
+  text-transform: uppercase;
+
+  color: #2a2a2a;
+
+  padding-left: 124px;
+  padding-top: 30px;
+}
+.white h3 {
+  font-family: "Georgia", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #8f8f8f;
+  padding-left: 124px;
+  padding-top: 10px;
+}
+.white p {
+  width: 824px;
+  font-family: "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-left: 124px;
+  color: #000000;
+}
+.black {
+  width: 876px;
+  height: 183px;
+  margin-left: 185px;
+  margin-top: -875px;
   background: #181818;
   box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
 }
-.tears p {
-  font-family: "Proxima Nova";
-  font-style: normal;
+.black p {
+  font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.19em;
-  margin: 45px 759px 124px 68px;
 
   color: #767676;
+  padding-left: 68px;
+  padding-top: 45px;
 }
-.tears h2 {
-  font-family: "Playfair Display";
-  font-style: normal;
+.black h2 {
+  font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   font-size: 48px;
   line-height: 64px;
-  margin: 63px 463px 60px 68px;
 
   color: #fefefe;
+  padding-left: 68px;
 }
-hr {
-  width: 806px;
-  height: 3px;
-  margin-left: 394px;
-  margin-top: 185px;
+.black hr {
   background: rgba(255, 255, 255, 0.1);
+  height: 3px;
+  width: 806px;
+  position: absolute;
+  right: 865px;
 }
-
 .yellow {
-  justify-content: space-around;
+  margin-left: 248px;
   width: 812px;
   height: 73px;
   background: #fbc02d;
   box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+.icons {
+  display: flex;
+
+  justify-content: space-around;
+  padding-top: 23px;
 }
