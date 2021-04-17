@@ -6,11 +6,6 @@
 main {
   background: #a7a4a4;
 }
-/* .content {
-  margin: 0 auto;
-  width: 1060px;
-  height: 875px;
-} */
 .vl {
   width: 2px;
   height: 100%;
@@ -22,10 +17,9 @@ main {
 .white {
   position: relative;
   margin: 0 auto;
-  /* margin-top: -120px; */
+  margin-top: 0;
   padding: 140px 100px 100px 100px;
   width: 1060px;
-  /* height: 875px; */
   background: #fff;
 }
 .white h6 {
@@ -37,8 +31,6 @@ main {
   text-transform: uppercase;
 
   color: #b4b4b4;
-  /* padding-top: 360px; */
-  /* padding-left: 124px; */
 }
 .white h1 {
   font-family: "Futura PT", sans-serif;
@@ -49,7 +41,6 @@ main {
 
   color: #2a2a2a;
 
-  /* padding-left: 124px; */
   padding-top: 30px;
 }
 .white h3 {
@@ -60,28 +51,25 @@ main {
   line-height: 34px;
 
   color: #8f8f8f;
-  /* padding-left: 124px; */
   padding-top: 10px;
 }
 .white p {
-  /* width: 824px; */
   font-family: "Georgia", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
   line-height: 40px;
   margin-top: 50px;
-  /* margin-left: 124px; */
+
   color: #000000;
 }
 .black {
   width: 876px;
   position: relative;
   z-index: 2;
-  /* height: 183px; */
-  /* margin-left: 185px; */
-  /* margin-top: -875px; */
-  /* margin-left: auto; */
+
+  padding: 10px 0 10px 68px;
+  margin-left: auto;
   background: #181818;
   box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
 }
@@ -93,7 +81,7 @@ main {
   letter-spacing: 0.19em;
   border: none;
   color: #767676;
-  padding-left: 68px;
+
   padding-top: 45px;
 }
 .black input {
@@ -101,16 +89,18 @@ main {
   font-weight: normal;
   font-size: 48px;
   line-height: 64px;
+  border: 0;
   border-bottom: 1px solid #fff;
   color: #fefefe;
-  padding-left: 68px;
+
   z-index: 1;
+  display: block;
+  background: transparent;
 }
 .yellow {
-  /* margin-left: 248px; */
   position: relative;
   z-index: 1;
-  /* margin-left: auto; */
+  margin-left: auto;
   width: 812px;
   height: 73px;
   background: #fbc02d;
