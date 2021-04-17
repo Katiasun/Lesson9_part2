@@ -8,8 +8,8 @@ main {
 }
 .content {
   margin: 0 auto;
-  width: 1060px;
-  height: 875px;
+  /* width: 1060px; */
+  /* height: 875px; */
 }
 .vl {
   width: 2px;
@@ -17,12 +17,14 @@ main {
   border-left: 5px solid #e8eced;
   position: absolute;
   top: 0;
-  left: 925px;
+  left: 515px;
 }
 .white {
   margin: 0 auto;
+  margin-top: -120px;
+  padding: 140px 100px 100px 100px;
   width: 1060px;
-  height: 875px;
+  /* height: 875px; */
   background: #fff;
 }
 .white h6 {
@@ -34,8 +36,8 @@ main {
   text-transform: uppercase;
 
   color: #b4b4b4;
-  padding-top: 360px;
-  padding-left: 124px;
+  /* padding-top: 360px; */
+  /* padding-left: 124px; */
 }
 .white h1 {
   font-family: "Futura PT", sans-serif;
@@ -46,7 +48,7 @@ main {
 
   color: #2a2a2a;
 
-  padding-left: 124px;
+  /* padding-left: 124px; */
   padding-top: 30px;
 }
 .white h3 {
@@ -57,7 +59,7 @@ main {
   line-height: 34px;
 
   color: #8f8f8f;
-  padding-left: 124px;
+  /* padding-left: 124px; */
   padding-top: 10px;
 }
 .white p {
@@ -68,46 +70,43 @@ main {
   font-size: 27px;
   line-height: 40px;
   margin-top: 50px;
-  margin-left: 124px;
+  /* margin-left: 124px; */
   color: #000000;
 }
 .black {
   width: 876px;
-  height: 183px;
-  margin-left: 185px;
-  margin-top: -875px;
+  position: relative;
+  /* height: 183px; */
+  /* margin-left: 185px; */
+  /* margin-top: -875px; */
+  margin-left: auto;
   background: #181818;
   box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
 }
-.black p {
+.black label {
   font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.19em;
-
+  border: none;
   color: #767676;
   padding-left: 68px;
   padding-top: 45px;
 }
-.black h2 {
+.black input {
   font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   font-size: 48px;
   line-height: 64px;
-
+  border-bottom: 1px solid #fff;
   color: #fefefe;
   padding-left: 68px;
 }
-.black hr {
-  background: rgba(255, 255, 255, 0.1);
-  height: 3px;
-  width: 806px;
-  position: absolute;
-  right: 865px;
-}
 .yellow {
-  margin-left: 248px;
+  /* margin-left: 248px; */
+  position: relative;
+  margin-left: auto;
   width: 812px;
   height: 73px;
   background: #fbc02d;
