@@ -6,11 +6,11 @@
 main {
   background: #a7a4a4;
 }
-.content {
+/* .content {
   margin: 0 auto;
-  /* width: 1060px; */
-  /* height: 875px; */
-}
+  width: 1060px;
+  height: 875px;
+} */
 .vl {
   width: 2px;
   height: 100%;
@@ -21,8 +21,8 @@ main {
 }
 .white {
   position: relative;
-  margin: 0 80px;
-  margin-top: -120px;
+  margin: 0 auto;
+  /* margin-top: -120px; */
   padding: 140px 100px 100px 100px;
   width: 1060px;
   /* height: 875px; */
